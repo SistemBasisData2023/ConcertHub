@@ -1,0 +1,98 @@
+  .gmbr{
+    top:200px;
+    margin-bottom: 650px;
+    margin-left: 425px;
+    position: absolute; 
+  }
+  .Cover {
+    position: absolute; 
+    background-color: rgb(33, 37, 41);
+    width: 675px;
+    height: 40em;
+    margin-left: 130px;
+    top: 550px;
+    position: relative;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+    left: 300px;
+    margin-bottom: 600px;
+  }
+  .Username {
+    position: absolute;
+    bottom: 450px;
+    justify-content: center;
+    color: white;
+  }
+  .PhoneNumber{
+    position: absolute;
+    bottom: 390px;
+    justify-content: center;
+    color: white;
+  }
+  .Email{
+    position: absolute;
+    bottom: 330px;
+    justify-content: center;
+    color: white;
+  }
+  .Accomodation{
+    width: 175px;
+    position: absolute;
+    top: 325px;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  .PaymentMethod{
+    width: 175px;
+    position: absolute;
+    top: 380px;
+    left: 250px;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  .Price {
+    color: white;
+    position: absolute;
+    top:450px;
+    justify-content: center;
+    font-size: 12px;
+  }
+  .PayButton {
+    margin-top: 495px;
+    align-items: center;
+    background-color: rgb(5, 41, 153);
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }

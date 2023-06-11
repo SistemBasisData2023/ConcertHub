@@ -1,0 +1,198 @@
+
+
+.or-text {
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+.logo img{
+  width: 100%;
+  margin-left: 100px;
+    position: relative; 
+}
+
+.logincover h1{
+   color:white;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 75px;
+    font-style: normal;
+
+}
+.logincover h2{
+  color:white;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 75px;
+    font-style: normal;
+}
+
+.logincover input,
+.registercover input {
+  margin: 0.5em 0;
+}
+
+.logincover {
+  margin-right: 400px;
+  background-color: rgb(33, 37, 41);
+  width: 30em;
+  height: 40em;
+  position: relative;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial;
+  left: 300px
+}
+
+.registercover {
+  background-color: rgb(33, 37, 41);
+  width: 30em;
+  height: 40em;
+  position: relative;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial;
+  margin: 0 auto;
+}
+.form_select{
+  margin-top: 10px;
+}
+input{
+    border: none;
+    background-color: azure;
+    border-radius: 20em;
+    text-align: center;
+    padding: 0.5em;
+
+}
+
+input:focus{
+    outline-color: grey;
+}
+
+.loginbutton {
+
+      align-items: center;
+      background-color: rgb(5, 41, 153);
+      border: 0;
+      margin-top: 20px;
+      border-radius: 100px;
+      box-sizing: border-box;
+      color: #ffffff;
+      cursor: pointer;
+      display: inline-flex;
+      font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      justify-content: center;
+      line-height: 20px;
+      max-width: 480px;
+      min-height: 40px;
+      min-width: 0px;
+      overflow: hidden;
+      padding: 0px;
+      padding-left: 50px;
+      padding-right: 50px;
+      text-align: center;
+      touch-action: manipulation;
+      transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+      user-select: none;
+      -webkit-user-select: none;
+      vertical-align: middle;
+    }
+    
+    .button-18:hover,
+    .button-18:focus { 
+      background-color: rgb(5, 41, 153);
+      color: #ffffff;
+    }
+    
+    .button-18:active {
+      background: #09223b;
+      color: rgb(255, 255, 255, .7);
+    }
+    
+    .button-18:disabled { 
+      cursor: not-allowed;
+      background: rgba(0, 0, 0, .08);
+      color: rgba(0, 0, 0, .3);
+    }
+
+.loginbutton:hover{ transform: scale(1.15);}
+
+.registerbutton {
+    align-items: center;
+    background-color: rgb(5, 41, 153);
+    border: 0;
+    margin-top: 20px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  
+  .button-18:hover,
+  .button-18:focus { 
+    background-color: rgb(5, 41, 153);
+    color: #ffffff;
+  }
+  
+  .button-18:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+  }
+  
+  .button-18:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}
+
+.registerbutton:hover{ transform: scale(1.15);}
+
+.hide {display: none;}
+
+.login-popup{
+    position: absolute;
+    height: 20em;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25em;
+    background-color: grey;
+    color: white;
+    bottom: 0;
+    transform: scale(1);
+    transform: 1.5s;
+    
+}
+
